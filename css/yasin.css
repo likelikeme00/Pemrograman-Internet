@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body  */
+
+body {
+	 background: url(../image/login_bg.jpg) no-repeat center center fixed; 
+                -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+
+}
+div.squiggly-border {
+	background: url(../image/border8.png) repeat-x;
+	height: 9px;
+	margin-bottom: 20px;
+	color:#F00;
+}
+
+
+/* Login */
+
+body#body-login {
+
+	padding-top: 60px;
+}
+
+.login-wrapper {
+
+	background-color: #A9A9A9  ;
+	border: 1px solid ;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	position: relative;
+	margin-top: 30px;
+	padding: 20px;
+}
+.form-signin {
+  
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  color: #FFF;
+}
+.form-signin-heading{
+
+	color:#FFF;
+}
+
+.form-signin {
+	
+	color:#FFF;
+	}
+.baru {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+a.btn-link {
+	color: #FFF;
+	text-shadow: none;
+}
+div.login-radmin h1.brand {
+	font-family: 'Molle', cursive;
+	font-size: 45px;
+	font-weight: normal;
+	color: #FFF;
+	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px 0;
+}
+
+h2.sign-in {
+	margin-bottom: 0;
+	color: #FFF;
+	font-family: inherit;
+}
+
+div.login-inner small{
+	margin-bottom: 10px;
+	display: block;
+	color: #FFF;
+}
+
+div.login-inner form.form-horizontal {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+div.login-inner form.form-horizontal .control-label {
+	text-align: left;
+	width: 80px;
+}
+
+div.login-inner form.form-horizontal .controls {
+	margin-left: 20px;
+} 
+
+div.login-inner .input-append .add-on, div.login-inner .input-prepend .add-on {
+	padding: 8px 6px;
+}
+
+div.input-prepend select, div.input-prepend textarea, div.input-prepend input[type="text"], div.input-prepend input[type="password"], div.input-prepend input[type="datetime"], div.input-prepend input[type="datetime-local"], div.input-prepend input[type="date"], div.input-prepend input[type="month"], div.input-prepend input[type="time"], div.input-prepend input[type="week"], div.input-prepend input[type="number"], div.input-prepend input[type="email"], div.input-prepend input[type="url"], div.input-prepend input[type="search"], div.input-prepend input[type="tel"], div.input-prepend input[type="color"], div.input-prepend .uneditable-input {
+	padding: 8px 6px;
+}
+
+div.login-inner div.form-actions {
+	padding: 10px;
+	background: #3CB371;
+	margin-bottom: 0;
+}
+a:hover,a:focus{
+color:red;
+text-decoration:none;
+}
